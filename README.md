@@ -1,1 +1,26 @@
 # Week-1-Code-Challenge
+This is the Week 1 Code Challenge where I solved Week 1 Toy Problems.
+The Toy Problems had three challenges;
+ 1. Student Grade Calculator
+ 2. Speed Detector
+ 3. Net Salary Calculator
+
+# Students-Grade-Generator.js
+This JavaScript challenge was to grade student marks between 0 and 100. The output of the grades was as shown below;
+     Marks between 80 and 100 are graded as "A"
+     Marks between 60 and 79 are graded as "B"
+     Marks between 50 and 59 are graded as "C"
+     Marks between 40 and 49 are graded as "D"
+     Marks below 40 are graded as "E"
+Any input marks that are out of scope, that is, below 0 and above 100, the marks are graded as Invalid Grade.
+
+# Speed-Detector.js
+This JavaScript challenge was to compare different ranges of speed limits. A speed limit of 70km/h or below prints an outcome "Ok".
+Every 5km/h above the acceptable speed limit, 70km/h, earns 1 demerit Point. Here the output printed is the number of points earned.
+If the driver gets more than 12 points, the return is "Licence suspended".
+
+
+# Net_salary-Calculator.js
+
+
+# conclusion
