@@ -54,6 +54,27 @@ function calculateNetSalary(basicSalary, benefits) {
     } else {
         nhifdeductions = 1700;
     }
+
+    // The NSSF Contributions
+    const nssfRates = {
+        tier1: {
+            maxPensionablePay: 6000,
+            employeeContribution: 0.06,
+        },
+        tier2: {
+            minPensionablePay: 6001,
+            maxPensionablePay: 18000,
+            employeeContribution: 0.06,
+        }
+    }
+
+    //calculating gross salary
+    const grossSalary = basicSalary +benefits;
+    
+    //calculate PAYE(the income tax)
+    const paye = (grossSalary * payeRate);
+
+    
     }
 
 
