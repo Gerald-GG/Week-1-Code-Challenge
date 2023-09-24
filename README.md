@@ -25,9 +25,9 @@ Every 5km/h above the acceptable speed limit, 70km/h, earns 1 demerit Point. Her
 If the driver gets more than 12 points, the return is "Licence suspended".
 
 
- #Net_salary-Calculator.js
+ # Net_salary-Calculator.js
 
-
+This challenge calculates the net salary of an employee  based on their basic salary and benefits. 
 
   # Conclusion
 
