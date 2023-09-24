@@ -1,4 +1,5 @@
- #Week-1-Code-Challenge 
+ # Week-1-Code-Challenge 
+ 
 This is the Week 1 Code Challenge where I solved Week 1 Toy Problems.
 The Toy Problems had three challenges;
  1. Student Grade Calculator
