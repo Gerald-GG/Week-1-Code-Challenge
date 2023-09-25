@@ -28,6 +28,9 @@ If the driver gets more than 12 points, the return is "Licence suspended".
  # Net_salary-Calculator.js
 
 This challenge calculates the net salary of an employee  based on their basic salary and benefits. 
+The deductions which include, paye, the nhif deductions and nssf deductions are added and the total deducted from Gross salary so as to get the employee net Salary. 
+
+
 
   # Conclusion
 
