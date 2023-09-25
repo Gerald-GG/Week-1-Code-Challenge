@@ -68,13 +68,42 @@ function calculateNetSalary(basicSalary, benefits) {
         }
     }
 
+    //housing levy for year 2023
+    const houselevyRate = 0.015;
+
     //calculating gross salary
     const grossSalary = basicSalary +benefits;
     
     //calculate PAYE(the income tax)
     const paye = (grossSalary * payeRate);
 
+    //calulating nssf deduction
+    const nssfdeduction = 0;
+    for(const tier of Objects.values(nssfRates)) {
+        if (grossSalary >= tier.minPensionablePay && grossSalary <tier.maxPensionablePay) {
+            nssfDeduction = grossSalary * tier.employeeContribution;
+            break;
+        }
+    } 
+
+    // calculating the total deductions
+    const totalDeductions = paye + nhifdeductions + nssfDeduction;
+
+    //Finding the net salary
+    const netSalary = grossSalary - totalDeductions;
+
+    return {
+        grossSalary,
+        paye,
+        nhifDeductions,
+        nssfDeduction,
+        totalDeductions,
+        netSalary,
+    };
+
+
     
+
     }
 
 
